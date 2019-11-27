@@ -51,8 +51,12 @@ class Status extends Template
     }
 
     public function getStatus(){
+            if ($customer =$this->getCustomer()){
+                return $customer->getData('bhs_customer_status');
+            }else{
+                return false;
+            }
 
-        return $this->getCustomer()->getData('bhs_customer_status');
     }
 
     public function getCustomerSession()
@@ -69,10 +73,15 @@ class Status extends Template
     }
     public  function  getCustomer()
     {
-        if (!$this->getCustomerSession()->isLoggedIn()) {
+        if (!$this->isLoggedIn()) {
           return false;
         }
 
         return $this->getCustomerSession()->getCustomer();
+    }
+
+    public function isLoggedIn()
+    {
+        return $this->getCustomerSession()->isLoggedIn();
     }
 }

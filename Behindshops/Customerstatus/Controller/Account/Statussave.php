@@ -27,7 +27,7 @@ use Magento\Customer\Controller\Account\EditPost;
                 if ($bhs_customer_status){
                     $this->messageManager->addSuccess(__('You changed your status to Active.'));
                 }else{
-                    $this->messageManager->addSuccess(__('You changed your status to inactive.'));
+                    $this->messageManager->addWarning(__('You changed your status to inactive.'));
                 }
                }catch (UserLockedException $e) {
                 $message = __(
