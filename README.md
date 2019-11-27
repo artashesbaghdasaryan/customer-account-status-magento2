@@ -24,6 +24,7 @@ Customer status attribute , Enable or disable Customer Status, showing atatus on
  
  - Block
 	- Status > status.phtml
+	- Status > status/link.phtml
 
 
 ## Attributes
