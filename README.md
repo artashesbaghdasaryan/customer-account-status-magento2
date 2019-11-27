@@ -20,10 +20,10 @@ showing status on top header
  - Enable the module by running `php bin/magento module:enable Behindshops_Customerstatus`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
- 
+
 ## Specifications
 
- 
+
  - Block
 	- Status > status.phtml
 	- Status > status/link.phtml
