@@ -9,7 +9,9 @@
 
 
 ## Main Functionalities
-Customer status attribute , Enable or disable Customer Status, showing atatus on to header
+Customer status attribute ,
+Enable or disable Customer Status,
+showing status on top header
 
 ## Installation
 \* = in production please use the `--keep-generated` option
