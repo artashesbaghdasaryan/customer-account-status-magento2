@@ -1,0 +1,7 @@
+<page xmlns:xsi="//www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="header.links" >
+          <block as="status_link" class="Behindshops\Customerstatus\Block\Status" name="status_link" template="Behindshops_Customerstatus::status/link.phtml"  cacheable="false"/>
+    </referenceBlock>
+</body>
+ </page>

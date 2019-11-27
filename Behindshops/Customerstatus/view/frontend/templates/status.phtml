@@ -1,0 +1,26 @@
+<?php
+/**
+ * @var $block \Behindshops\Customerstatus\Block\Status
+ */
+
+?>
+<div>
+    <form  action="<?= $block->getSaveUrl() ?>" method="post" id="save-bhs-customer-status" class="form send" >
+        <fieldset class="fieldset">
+            <div class="field checkbox ">
+                <label for="bhs_customer_status" class="label"><span><?= $block->escapeHtml(__('Status')) ?></span></label>
+                    <input type="checkbox"
+                           name="bhs_customer_status"
+                           <?php if($block->getStatus()){?>  checked="true" <?php } ?>
+                           id="bhs_customer_status" class=" field choice "
+                           value="1"
+                           />
+            </div>
+        </fieldset>
+        <div class="actions-toolbar">
+            <div class="primary">
+                <button type="submit" class="action send primary"><span><?= $block->escapeHtml(__('Change status')) ?></span></button>
+            </div>
+        </div>
+    </form>
+</div>

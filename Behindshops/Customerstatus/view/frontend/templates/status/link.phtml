@@ -1,0 +1,13 @@
+<?php
+/**
+ * @var $block \Behindshops\Customerstatus\Block\Status
+ */
+
+?>
+<li><a  href="<?= $this->getStatusUrl() ?>">
+        <?php if ($this->getStatus())
+        echo "<span style='color: #2ca02c;'>".$block->escapeHtml(__('Is enabled')) ."</span>";
+        else
+        echo "<span style='color:#ffff00;'>".$block->escapeHtml(__('Is disabled'))."</span>";  ?>
+    </a>
+</li>
