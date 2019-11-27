@@ -11,7 +11,7 @@
 
 
 ## Main Functionalities
-Customer status attribute , Enable or disable Customer account
+Customer status attribute , Enable or disable Customer Status, showing atatus on to header
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -29,23 +29,12 @@ Customer status attribute , Enable or disable Customer account
     - private repository `repo.magento.com`
     - public repository `packagist.org`
     - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require behindshops/module-customerstatus`
- - enable the module by running `php bin/magento module:enable Behindshops_Customerstatus`
- - apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
-
-
-## Configuration
-
-
+ - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer 
 
 
 ## Specifications
 
- - Customer Data Section
-	- bhscustomerstatus
-
+ 
  - Block
 	- Status > status.phtml
 
