@@ -1,5 +1,4 @@
-# customer-account-status-magento2
-# Mage2 Module Behindshops Customerstatus
+# Magento 23.* Module Behindshops Customerstatus
 
     ``behindshops/module-customerstatus``
 
