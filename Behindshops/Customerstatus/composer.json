@@ -1,0 +1,22 @@
+{
+    "name": "behindshops/module-customerstatus",
+    "description": "Customer status attribute , Enable or disable Customer account",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "artashesbaghdasaryan95@gmail.com",
+            "name": "Artashes Baghdasaryan"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Behindshops\\Customerstatus\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
