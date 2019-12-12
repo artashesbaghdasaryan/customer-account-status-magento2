@@ -1,6 +1,6 @@
 # Magento 23.* Module Behindshops Customer Status 
 
- - [Main Functionalities](#markdown-header-main-functionalities)
+ - [Main Functionalities](#user-content-main-functionalities)
  - [Installation](#markdown-header-installation)
 
 
