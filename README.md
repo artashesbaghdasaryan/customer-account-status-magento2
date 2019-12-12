@@ -9,6 +9,8 @@
 - Customer can enable or disable his/her account.
 - On top of the header showing the status linked to customer Enable or disable the account
 - If the customer account is a disabled customer can not go to the checkout page  and redirecting to  checkout cart page
+- Admin can disable or enable Customer Account 
+
  
 ## Installation
 \* = in production please use the `--keep-generated` option
