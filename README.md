@@ -1,7 +1,7 @@
-# Magento 23.* Module Behindshops Customer Status 
+# Magento 2.3.*   Customer Status Additional field to to disable/enable customer Checkout.
 
  - [Main Functionalities](#user-content-main-functionalities)
- - [Installation](#markdown-header-installation)
+ - [Installation](#user-content-installation)
 
 
 ## Main Functionalities
