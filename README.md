@@ -9,9 +9,8 @@
 
 
 ## Main Functionalities
-Customer status attribute ,
-Enable or disable Customer Status,
-showing status on top header
+ Customer can enable or disable his/her account , if the customer account is disabled customer can not go to checkout and redirecting to checkout cart page
+ 
 
 ## Installation
 \* = in production please use the `--keep-generated` option
