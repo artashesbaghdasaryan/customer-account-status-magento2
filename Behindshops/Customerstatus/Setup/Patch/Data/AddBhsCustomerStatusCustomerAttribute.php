@@ -68,7 +68,7 @@ class AddBhsCustomerStatusCustomerAttribute implements DataPatchInterface, Patch
             'bhs_customer_status',
             [
                 'type' => 'int',
-                'label' => 'Customer Status',
+                'label' => 'CustomerStatus',
                 'input' => 'boolean',
                 'source' => '',
                 'required' => true,
